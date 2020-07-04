@@ -1,20 +1,20 @@
 ---
 created: 2020-07-04T17:07:15+03:00
-modified: 2020-07-04T18:48:40+03:00
-title: readme
+modified: 2020-07-04T18:56:09+03:00
+title: markdown
 ---
 
-## Markdown ##
-
-Tekst formatteren met *markdown* (md):
+##   Tekststijlen
 
 ``` 
 **vet**
 _cursief_
+~~doorstreept~~
 ```
 
 **vet**
 _cursief_
+~~doorstreept~~
 
 * Lijsten met *, -  aan het begin van de regel
    - onderlijst
