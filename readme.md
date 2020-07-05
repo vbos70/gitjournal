@@ -6,19 +6,50 @@ title: markdown
 
 ##   Tekststijlen
 
+Dit 
+
 ``` 
 **vet**
 _cursief_
 ~~doorstreept~~
 ```
 
+Geeft
+
 **vet**
 _cursief_
 ~~doorgestreept~~
 
-* Lijsten met *, -  aan het begin van de regel
-   - onderlijst
-   - 2e regel onderlijst
-   * met ster
-* En de 2e regel.
+## Lijsten
+
+Start elk lijstonderwerp met `*`, `-` of `+` uitgelijnd recht onder
+het onderwerp op de vorige regel. Lijsten in lijsten maken door regels
+in te springen.
+
+Dit
+
+```
+- eerste (-)
+- tweede (-)
+  + tweede - eerste (+ -)
+    + tweede - eerste - eerste (- + +) 
+  * tweede - tweede (* -)
+  - tweede - derde (- -)
+    * tweede - derde - eerste (- - *)
+* derde (*)
+* laatste (*)
+```
+
+Geeft
+
+- eerste (-)
+- tweede (-)
+  - tweede - eerste (- -)
+  * tweede - tweede (* -)
+  - tweede - derde (- -)
+* derde (*)
+* laatste (*)
+
+## Links
+
 Zie ook [github markdown guide](https://guides.github.com/features/mastering-markdown/)
