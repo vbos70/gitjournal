@@ -1,6 +1,6 @@
 ---
 created: 2020-07-04T17:07:15+03:00
-modified: 2020-07-05T10:40:23+03:00
+modified: 2020-07-05T16:49:34+03:00
 title: markdown
 ---
 
@@ -51,3 +51,11 @@ Zie ook [github markdown guide](https://guides.github.com/features/mastering-mar
 geeft
 
 Zie ook [github markdown guide](https://guides.github.com/features/mastering-markdown/)
+
+URLs worden herkent, dit
+```
+https://www.markdownguide.org/cheat-sheet/
+```
+geeft
+
+https://www.markdownguide.org/cheat-sheet/
