@@ -1,6 +1,6 @@
 ---
 created: 2020-07-04T17:07:15+03:00
-modified: 2020-07-05T10:22:18+03:00
+modified: 2020-07-05T10:25:28+03:00
 title: markdown
 ---
 
@@ -22,8 +22,7 @@ _cursief_
 
 ## Lijsten
 
-Start elk onderwerp met `*`, `-` of `+` symbool uitgelijnd recht onder
-hetzelfde symbool op de vorige regel. Maak lijsten in lijsten door regels
+Start de eerste regel van de lijst op een nieuwe regel, uitgelijnd volgens de context. Start elk onderwerp met `*`, `-` of `+` symbool uitgelijnd recht onder hetzelfde symbool op de vorige regel. Maak lijsten in lijsten door regels
 in te springen en een ander  symbool te gebruiken.
 
 Dit
