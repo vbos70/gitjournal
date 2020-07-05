@@ -1,6 +1,6 @@
 ---
 created: 2020-07-04T17:07:15+03:00
-modified: 2020-07-05T10:25:28+03:00
+modified: 2020-07-05T10:40:23+03:00
 title: markdown
 ---
 
@@ -14,7 +14,7 @@ _cursief_
 ~~doorstreept~~
 ```
 
-Geeft
+geeft
 
 **vet**
 _cursief_
@@ -22,33 +22,32 @@ _cursief_
 
 ## Lijsten
 
-Start de eerste regel van de lijst op een nieuwe regel, uitgelijnd volgens de context. Start elk onderwerp met `*`, `-` of `+` symbool uitgelijnd recht onder hetzelfde symbool op de vorige regel. Maak lijsten in lijsten door regels
-in te springen en een ander  symbool te gebruiken.
-
 Dit
 
 ```
-- eerste 
-- tweede
-  + tweede - eerste 
-     * tweede - eerste - eerste 
-  + tweede - tweede
-  + tweede - derde 
-     * tweede - derde - eerste 
-- derde 
-- laatste 
+- start op nieuwe regel
+-  begin elk onderwerp met -, + of  *
+-  elke volgende regel recht onder de vorige
+   + spring in om deellijsten te maken
+   + ook weer uitlijnen op vorige regel
+-  spring terug na laatste onderwerp deellijst
 ```
 
-Geeft
+geeft
 
-- eerste (-)
-- tweede (-)
-  - tweede - eerste (- -)
-  * tweede - tweede (* -)
-  - tweede - derde (- -)
-* derde (*)
-* laatste (*)
+- start op nieuwe regel
+-  begin elk onderwerp met -, + of  *
+-  elke volgende regel recht onder de vorige
+   + spring in om deellijsten te maken
+   + ook weer uitlijnen op vorige regel
+-  spring terug na laatste onderwerp deellijst
 
 ## Links
+
+Dit
+```
+Zie ook [github markdown guide](https://guides.github.com/features/mastering-markdown/)
+```
+geeft
 
 Zie ook [github markdown guide](https://guides.github.com/features/mastering-markdown/)
