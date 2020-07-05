@@ -1,6 +1,6 @@
 ---
 created: 2020-07-04T17:07:15+03:00
-modified: 2020-07-05T16:53:54+03:00
+modified: 2020-07-05T17:05:19+03:00
 title: markdown
 ---
 
@@ -73,3 +73,27 @@ geeft
 
 > een blok maak je door de regels
 > met een > te beginnen.
+
+## Lijnen
+
+Dit
+```
+---
+```
+
+geeft
+
+---
+
+## Code
+
+Dit
+```
+Code in tekst  maak je zo: `code`
+```
+
+geeft
+
+Code in tekst  maak je zo: `code`
+
+En een codeblok start en eindigt met een ``` regel.
