@@ -14,7 +14,7 @@ _cursief_
 
 **vet**
 _cursief_
-~~doorstreept~~
+~~doorgestreept~~
 
 * Lijsten met *, -  aan het begin van de regel
    - onderlijst
